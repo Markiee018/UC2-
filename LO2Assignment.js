@@ -149,3 +149,18 @@ for (i = 1; i < links.length; i++){
     console.log("This is link number " + i);
 }
     document.write("<br>The Links is now looped");
+
+// Break & Continue
+
+for (i = 0; i < 10; i++){
+
+    if(i === 5 || i === 3){
+        continue;
+    }
+    console.log(i);
+
+    if(i === 7){
+        break;
+    }
+}
+console.log('I have broken out of the loop');
