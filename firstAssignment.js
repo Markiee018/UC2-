@@ -1,3 +1,9 @@
+// First Alert
+alert("Hello World!");
+
+// Second Alert
+alert("Hello World!");
+
 const a = 15;
 const b = 5;
 function sum(a,b) {
